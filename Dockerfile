@@ -21,8 +21,8 @@ RUN set -x \
         openssl-dev \
  && wget http://ck.kolivas.org/apps/cgminer/cgminer-4.11.0.tar.bz2 \
  && tar jxvf cgminer-4.11.0.tar.bz2 \
- && cd  cgminer-4.10.0.tar.bz2 、
- && ./configure --prefix=/usr/local/cgminer --enable-opencl --enable-maintainer-mode --enable-scrypt --enable-cpumining 、
+ && cd  cgminer-4.10.0.tar.bz2 \
+ && ./configure --prefix=/usr/local/cgminer --enable-opencl --enable-maintainer-mode --enable-scrypt --enable-cpumining \
  && make \
  && make check \
  && make install \
